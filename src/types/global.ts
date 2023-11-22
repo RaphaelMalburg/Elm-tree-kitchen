@@ -1,5 +1,5 @@
 export type prepListType = {
-  id: string | number;
+  id: any;
   nameTask: string;
   description: string;
   quantity: { value: number; unit: string };
