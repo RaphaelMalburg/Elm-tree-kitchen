@@ -19,7 +19,7 @@ export default function Navbar() {
       <nav className="w-full px-4 pb-6">
         <div className="font-semibold text-center text-lg grid grid-cols-3 justify-between">
           <Link href={"/"}>
-            <Image src="/elmlogo.jpg " className=" " alt="logo" width={150} height={150} priority />
+            <Image src="../../public/elmlogo.jpg " className=" " alt="logo" width={150} height={150} priority />
           </Link>
 
           <div className="flex justify-center ml-8">
