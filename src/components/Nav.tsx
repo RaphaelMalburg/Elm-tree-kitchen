@@ -12,6 +12,7 @@ import { prepLists } from "@/data/prepLists";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { MdChevronLeft } from "react-icons/md";
+
 export default function Navbar() {
   const pathname = usePathname();
   return (
@@ -19,7 +20,7 @@ export default function Navbar() {
       <nav className="w-full px-4 pb-6">
         <div className="font-semibold text-center text-lg grid grid-cols-3 justify-between">
           <Link href={"/"}>
-            <Image src="../../public/elmlogo.jpg " className=" " alt="logo" width={150} height={150} priority />
+            <Image src="/logoelmtree.png " alt="logo" width={150} height={150} />
           </Link>
 
           <div className="flex justify-center ml-8">
