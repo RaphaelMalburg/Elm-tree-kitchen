@@ -18,14 +18,10 @@ export default function Navbar() {
   return (
     <>
       <nav className="w-full px-4 pb-6">
-        <div className="font-semibold text-center text-lg grid grid-cols-3 justify-between">
-          <Link href={"/"}>
-            <Image src="/public/elmlogo.jpg" alt="logo" width={150} height={150} />
-          </Link>
-
+        <div className="font-semibold text-center text-lg grid grid-cols-3 justify-between relative">
           <div className="flex justify-center ml-8">
-            <Switch id="airplane-mode" />
-            <Label htmlFor="airplane-mode"></Label>
+            {/*     <Switch id="airplane-mode" />
+            <Label htmlFor="airplane-mode"></Label> */}
           </div>
           <Sheet>
             <SheetTrigger asChild>

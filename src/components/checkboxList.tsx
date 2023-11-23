@@ -20,7 +20,7 @@ export function Checkboxlist({ list }: { list: prepListType[] }) {
     <div className="grid grid-cols-1 md:grid-cols-2 placeholder:items-center gap-4">
       {list.map((item: prepListType) => (
         <div key={item.id} className="flex flex-row items-start space-x-3 space-y-0">
-          <Checkbox onClick={() => handleClick(item.nameTask)} id={item.id.toString()} className="peer h-5 w-5 text-blue-500" checked={store.includes(item.nameTask)} />
+          <Checkbox onClick={() => handleClick(item.nameTask)} id={item.id.toString()} className="peer h-5 w-5 text-blue-500" />
           <label
             onClick={() => handleClick(item.nameTask)} // Pass a function reference
             htmlFor={item.id.toString()}
